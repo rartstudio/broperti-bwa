@@ -9,7 +9,7 @@
                 </button>
             </div>
       </div>
-            <ul :class="['fixed inset-0 bg-gray-900 md:bg-transparent md:relative md:opacity-100 md:visible pt-24 md:pt-0 transition-all duration-200  overflow-hidden md:flex items-center justify-center text-gray-600',ToggleMenu ? 'opacity-100 visible z-40' : 'opacity-0 invisible']">
+            <ul :class="['fixed inset-0 bg-gray-900 md:bg-transparent md:relative md:opacity-100 md:visible pt-24 md:pt-0 transition-colors duration-300  overflow-hidden md:flex items-center justify-center text-gray-600',ToggleMenu ? 'opacity-100 visible z-40' : 'opacity-0 invisible']">
               <li class="my-4 md:my-0">
                 <nuxt-link to="/" class="mx-4 link">Home</nuxt-link>
               </li>
