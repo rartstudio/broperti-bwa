@@ -1,14 +1,14 @@
 <template>
    <div class="flex flex-col md:flex-row justify-center items-center pb-20 pt-8 md:pt-12">
-          <div class="w-full md:w-3/12 mb-8 md:mb-0 flex flex-col items-center justify-center ">
+          <div class="w-full md:w-3/12 mb-8 md:mb-0 flex flex-col items-center justify-center " data-aos="flip-left" data-aos-duration="500">
             <h3 class="text-2xl">15,600</h3>
             <p class="text-gray-600">House & Appartement</p>
           </div>
-          <div class="w-full md:w-3/12 mb-8 md:mb-0 flex flex-col items-center justify-center md:border-l md:border-r md:border-gray-400">
+          <div class="w-full md:w-3/12 mb-8 md:mb-0 flex flex-col items-center justify-center md:border-l md:border-r md:border-gray-400" data-aos="flip-left" data-aos-duration="750">
             <h3 class="text-2xl">580K</h3>
             <p class="text-gray-600">Success Buyer</p>
           </div>
-          <div class="w-full md:w-3/12 mb-8 md:mb-0 flex flex-col items-center justify-center">
+          <div class="w-full md:w-3/12 mb-8 md:mb-0 flex flex-col items-center justify-center" data-aos="flip-left" data-aos-duration="1000">
             <h3 class="text-2xl">100K</h3>
             <p class="text-gray-600">Best Locations</p>
           </div>

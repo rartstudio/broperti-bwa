@@ -25,7 +25,7 @@
               </form>
             </div>
             <div class="hidden md:block w-5/12">
-              <img src="~assets/images/image 5.png" class="absolute transform scale-75 -top-40 right-230 z-3"/>
+              <img src="~assets/images/image 5.png" class="absolute transform scale-75 -top-40 right-230 z-3" />
               <img src="~assets/images/image 6.png" class="absolute transform scale-75 z-2 -bottom-134 right-0"/>
             </div>
           </div>

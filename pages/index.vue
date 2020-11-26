@@ -4,16 +4,16 @@
         <div class="w-full bg-one min-h-screen max-h-screen h-screen relative">
           <HeaderParts/>
           <HeroParts/>
-          <PassThrough class="top-0 absolute w-full transform scale-150 md:scale-100"/>
+          <PassThrough class="top-0 absolute w-full transform scale-150 hidden md:block md:scale-100"/>
         </div>
         <ServicesParts/>
         <StatisticParts/>
         <div class="flex flex-col justify-start container mx-auto pb-64 px-4">
           <div class="flex justify-between items-center mb-12">
-            <h2 class="text-xl md:text-2xl">You're Probably<br/>
+            <h2 class="text-xl md:text-2xl" data-aos="flip-left" data-aos-duration="500">You're Probably<br/>
               Gonna Love These
             </h2>
-            <nuxt-link to="/home" class="text-sm text-right text-gray-600 underline inline-block">VIEW OTHER RECOMMENDATION</nuxt-link>
+            <nuxt-link to="/home" class="text-sm text-right text-gray-600 underline inline-block" data-aos="flip-left" data-aos-duration="750">VIEW OTHER RECOMMENDATION</nuxt-link>
           </div>
           <ItemProperty/>
         </div>

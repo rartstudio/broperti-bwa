@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-white flex flex-col items-center justify-center">
+    <footer class="bg-white flex flex-col items-center justify-center" data-aos="slide-up" data-aos-duration="500">
       <div class="w-full flex items-center justify-center px-4 md:px-0">
         <form class="form-register w-full md:w-7/12 pr-4 bg-one flex flex-col md:flex-row justify-between p-4 pl-4 mt-12 rounded-lg relative z-10">
           <div class="w-full mt-8 md:mt-0 md:w-4/12 flex flex-col justify-start">
